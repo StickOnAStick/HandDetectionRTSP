@@ -1,0 +1,20 @@
+[project]
+name = "hand-detection-rstp"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Nicholas Dimidik",email = "nndimidik@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<3.14.1"
+dependencies = [
+    "torch (>=2.14.1,<3.0.0)",
+    "torchvision (>=0.29.1,<0.30.0)",
+    "opencv-python (>=5.0.0.93,<6.0.0.0)",
+    "python-dotenv (>=1.2.4,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
